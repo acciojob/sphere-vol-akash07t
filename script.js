@@ -1,6 +1,8 @@
     
 function volume_sphere() {
     //Write your code here
+
+	event.preventDefault();
 	let r = document.getElementById('radius');
 	let v = document.getElementById('volume');
 	
